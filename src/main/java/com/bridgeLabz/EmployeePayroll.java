@@ -50,15 +50,6 @@ public class EmployeePayroll {
 
            // stmt.executeUpdate("update employee_payroll set name = 'Rohanwa' where name = 'Rohan'");
 
-//            while(rs.next()){
-//                id = rs.getInt(1);
-//                name = rs.getString(2);
-//                salary = rs.getDouble(4);
-//                //start_date = rs.getDate(4);
-//                employeePayrollList.add(new EmployeePayrollData(id, name, salary));
-//
-//            }
-//            System.out.println(employeePayrollList);
             rs.close();
             stmt.close();
 
